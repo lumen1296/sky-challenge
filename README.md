@@ -7,14 +7,6 @@
 
 Este es el microservicio que se encarga de crear la cola en RabbitMQ.
 
-**Instalación**
-
-Ejecutar el siguiente comando para instalar todas las dependecias:
-
-```bash
-$ npm install
-```
-
 **Variables de entorno**
 
 Están son las variables de entorno, tienen valores por defecto pero se pueden agregar a un archivo .env en la raiz del proyecto.
