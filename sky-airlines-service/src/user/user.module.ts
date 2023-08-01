@@ -3,7 +3,6 @@ import { UserService } from "./services/user.service";
 import { HttpModule } from "@nestjs/axios";
 import appConfig from "src/config/app.config";
 import { UserController } from "./controllers/user.controller";
-import { ClientsModule, Transport } from "@nestjs/microservices";
 import { RabbitMQClient } from "src/rabbit/rabbitmq.client";
 import { ExchangeType } from "src/rabbit/interfaces/rabbitmq.interface";
 
